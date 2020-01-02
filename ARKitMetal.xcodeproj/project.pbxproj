@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71B93FC923BE4CCD001A05C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FC823BE4CCD001A05C1 /* AppDelegate.swift */; };
+		71B93FCB23BE4CCD001A05C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FCA23BE4CCD001A05C1 /* SceneDelegate.swift */; };
+		71B93FD023BE4CCD001A05C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B93FCE23BE4CCD001A05C1 /* Main.storyboard */; };
+		71B93FD223BE4CCE001A05C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B93FD123BE4CCE001A05C1 /* Assets.xcassets */; };
+		71B93FD523BE4CCE001A05C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B93FD323BE4CCE001A05C1 /* LaunchScreen.storyboard */; };
+		71B93FF023BE4D80001A05C1 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FDE23BE4D7F001A05C1 /* Row.swift */; };
+		71B93FF123BE4D80001A05C1 /* SCNTechniqueNode.json in Resources */ = {isa = PBXBuildFile; fileRef = 71B93FDF23BE4D7F001A05C1 /* SCNTechniqueNode.json */; };
+		71B93FF223BE4D80001A05C1 /* SCNTechnique.metal in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FE023BE4D7F001A05C1 /* SCNTechnique.metal */; };
+		71B93FF323BE4D80001A05C1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FE123BE4D7F001A05C1 /* RootViewController.swift */; };
+		71B93FF423BE4D80001A05C1 /* SCNTechniqueNodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FE223BE4D7F001A05C1 /* SCNTechniqueNodeViewController.swift */; };
+		71B93FF623BE4D80001A05C1 /* SCNTechniqueNode.metal in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FE423BE4D7F001A05C1 /* SCNTechniqueNode.metal */; };
+		71B93FF723BE4D80001A05C1 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FE523BE4D7F001A05C1 /* Section.swift */; };
+		71B93FF823BE4D80001A05C1 /* SCNProgramFragment.metal in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FE623BE4D7F001A05C1 /* SCNProgramFragment.metal */; };
+		71B93FF923BE4D80001A05C1 /* SCNTechniqueUniform.metal in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FE723BE4D7F001A05C1 /* SCNTechniqueUniform.metal */; };
+		71B93FFA23BE4D80001A05C1 /* SCNProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FE823BE4D7F001A05C1 /* SCNProgramViewController.swift */; };
+		71B93FFB23BE4D80001A05C1 /* SCNProgram.metal in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FE923BE4D7F001A05C1 /* SCNProgram.metal */; };
+		71B93FFC23BE4D80001A05C1 /* SCNTechniqueUniform.json in Resources */ = {isa = PBXBuildFile; fileRef = 71B93FEA23BE4D7F001A05C1 /* SCNTechniqueUniform.json */; };
+		71B93FFD23BE4D80001A05C1 /* SCNTechnique.json in Resources */ = {isa = PBXBuildFile; fileRef = 71B93FEB23BE4D7F001A05C1 /* SCNTechnique.json */; };
+		71B93FFE23BE4D80001A05C1 /* SCNProgramFragmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FEC23BE4D7F001A05C1 /* SCNProgramFragmentViewController.swift */; };
+		71B93FFF23BE4D80001A05C1 /* SCNTechniqueUniformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FED23BE4D7F001A05C1 /* SCNTechniqueUniformViewController.swift */; };
+		71B9400023BE4D80001A05C1 /* SCNTechniqueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B93FEE23BE4D80001A05C1 /* SCNTechniqueViewController.swift */; };
+		71B9400723BE4D92001A05C1 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B9400223BE4D92001A05C1 /* Common.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71B93FC523BE4CCD001A05C1 /* ARKitMetal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitMetal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B93FC823BE4CCD001A05C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71B93FCA23BE4CCD001A05C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		71B93FCF23BE4CCD001A05C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71B93FD123BE4CCE001A05C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71B93FD423BE4CCE001A05C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71B93FD623BE4CCE001A05C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B93FDE23BE4D7F001A05C1 /* Row.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		71B93FDF23BE4D7F001A05C1 /* SCNTechniqueNode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SCNTechniqueNode.json; sourceTree = "<group>"; };
+		71B93FE023BE4D7F001A05C1 /* SCNTechnique.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = SCNTechnique.metal; sourceTree = "<group>"; };
+		71B93FE123BE4D7F001A05C1 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		71B93FE223BE4D7F001A05C1 /* SCNTechniqueNodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNTechniqueNodeViewController.swift; sourceTree = "<group>"; };
+		71B93FE423BE4D7F001A05C1 /* SCNTechniqueNode.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = SCNTechniqueNode.metal; sourceTree = "<group>"; };
+		71B93FE523BE4D7F001A05C1 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		71B93FE623BE4D7F001A05C1 /* SCNProgramFragment.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = SCNProgramFragment.metal; sourceTree = "<group>"; };
+		71B93FE723BE4D7F001A05C1 /* SCNTechniqueUniform.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = SCNTechniqueUniform.metal; sourceTree = "<group>"; };
+		71B93FE823BE4D7F001A05C1 /* SCNProgramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNProgramViewController.swift; sourceTree = "<group>"; };
+		71B93FE923BE4D7F001A05C1 /* SCNProgram.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = SCNProgram.metal; sourceTree = "<group>"; };
+		71B93FEA23BE4D7F001A05C1 /* SCNTechniqueUniform.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SCNTechniqueUniform.json; sourceTree = "<group>"; };
+		71B93FEB23BE4D7F001A05C1 /* SCNTechnique.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SCNTechnique.json; sourceTree = "<group>"; };
+		71B93FEC23BE4D7F001A05C1 /* SCNProgramFragmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNProgramFragmentViewController.swift; sourceTree = "<group>"; };
+		71B93FED23BE4D7F001A05C1 /* SCNTechniqueUniformViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNTechniqueUniformViewController.swift; sourceTree = "<group>"; };
+		71B93FEE23BE4D80001A05C1 /* SCNTechniqueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNTechniqueViewController.swift; sourceTree = "<group>"; };
+		71B9400223BE4D92001A05C1 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71B93FC223BE4CCD001A05C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71B93FBC23BE4CCD001A05C1 = {
+			isa = PBXGroup;
+			children = (
+				71B93FC723BE4CCD001A05C1 /* ARKitMetal */,
+				71B93FC623BE4CCD001A05C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71B93FC623BE4CCD001A05C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71B93FC523BE4CCD001A05C1 /* ARKitMetal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71B93FC723BE4CCD001A05C1 /* ARKitMetal */ = {
+			isa = PBXGroup;
+			children = (
+				71B93FDC23BE4CE0001A05C1 /* Resources */,
+				71B93FC823BE4CCD001A05C1 /* AppDelegate.swift */,
+				71B93FCA23BE4CCD001A05C1 /* SceneDelegate.swift */,
+				71B9400223BE4D92001A05C1 /* Common.swift */,
+				71B93FE523BE4D7F001A05C1 /* Section.swift */,
+				71B93FDE23BE4D7F001A05C1 /* Row.swift */,
+				71B93FE123BE4D7F001A05C1 /* RootViewController.swift */,
+				71B9400B23BE51A9001A05C1 /* SCNTEchnique */,
+				71B9400C23BE51C3001A05C1 /* SCNProgram */,
+			);
+			path = ARKitMetal;
+			sourceTree = "<group>";
+		};
+		71B93FDC23BE4CE0001A05C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71B93FD123BE4CCE001A05C1 /* Assets.xcassets */,
+				71B93FD623BE4CCE001A05C1 /* Info.plist */,
+				71B93FD323BE4CCE001A05C1 /* LaunchScreen.storyboard */,
+				71B93FCE23BE4CCD001A05C1 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		71B9400B23BE51A9001A05C1 /* SCNTEchnique */ = {
+			isa = PBXGroup;
+			children = (
+				71B93FEB23BE4D7F001A05C1 /* SCNTechnique.json */,
+				71B93FE023BE4D7F001A05C1 /* SCNTechnique.metal */,
+				71B93FEE23BE4D80001A05C1 /* SCNTechniqueViewController.swift */,
+				71B93FEA23BE4D7F001A05C1 /* SCNTechniqueUniform.json */,
+				71B93FE723BE4D7F001A05C1 /* SCNTechniqueUniform.metal */,
+				71B93FED23BE4D7F001A05C1 /* SCNTechniqueUniformViewController.swift */,
+				71B93FDF23BE4D7F001A05C1 /* SCNTechniqueNode.json */,
+				71B93FE423BE4D7F001A05C1 /* SCNTechniqueNode.metal */,
+				71B93FE223BE4D7F001A05C1 /* SCNTechniqueNodeViewController.swift */,
+			);
+			name = SCNTEchnique;
+			sourceTree = "<group>";
+		};
+		71B9400C23BE51C3001A05C1 /* SCNProgram */ = {
+			isa = PBXGroup;
+			children = (
+				71B93FE923BE4D7F001A05C1 /* SCNProgram.metal */,
+				71B93FE823BE4D7F001A05C1 /* SCNProgramViewController.swift */,
+				71B93FE623BE4D7F001A05C1 /* SCNProgramFragment.metal */,
+				71B93FEC23BE4D7F001A05C1 /* SCNProgramFragmentViewController.swift */,
+			);
+			name = SCNProgram;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71B93FC423BE4CCD001A05C1 /* ARKitMetal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B93FD923BE4CCE001A05C1 /* Build configuration list for PBXNativeTarget "ARKitMetal" */;
+			buildPhases = (
+				71B93FC123BE4CCD001A05C1 /* Sources */,
+				71B93FC223BE4CCD001A05C1 /* Frameworks */,
+				71B93FC323BE4CCD001A05C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKitMetal;
+			productName = ARKitMetal;
+			productReference = 71B93FC523BE4CCD001A05C1 /* ARKitMetal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71B93FBD23BE4CCD001A05C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = tksshj;
+				TargetAttributes = {
+					71B93FC423BE4CCD001A05C1 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 71B93FC023BE4CCD001A05C1 /* Build configuration list for PBXProject "ARKitMetal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71B93FBC23BE4CCD001A05C1;
+			productRefGroup = 71B93FC623BE4CCD001A05C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71B93FC423BE4CCD001A05C1 /* ARKitMetal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71B93FC323BE4CCD001A05C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B93FD523BE4CCE001A05C1 /* LaunchScreen.storyboard in Resources */,
+				71B93FF123BE4D80001A05C1 /* SCNTechniqueNode.json in Resources */,
+				71B93FFC23BE4D80001A05C1 /* SCNTechniqueUniform.json in Resources */,
+				71B93FFD23BE4D80001A05C1 /* SCNTechnique.json in Resources */,
+				71B93FD223BE4CCE001A05C1 /* Assets.xcassets in Resources */,
+				71B93FD023BE4CCD001A05C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71B93FC123BE4CCD001A05C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B93FFE23BE4D80001A05C1 /* SCNProgramFragmentViewController.swift in Sources */,
+				71B93FF923BE4D80001A05C1 /* SCNTechniqueUniform.metal in Sources */,
+				71B93FF023BE4D80001A05C1 /* Row.swift in Sources */,
+				71B93FF423BE4D80001A05C1 /* SCNTechniqueNodeViewController.swift in Sources */,
+				71B93FC923BE4CCD001A05C1 /* AppDelegate.swift in Sources */,
+				71B93FF323BE4D80001A05C1 /* RootViewController.swift in Sources */,
+				71B93FCB23BE4CCD001A05C1 /* SceneDelegate.swift in Sources */,
+				71B93FF723BE4D80001A05C1 /* Section.swift in Sources */,
+				71B93FF823BE4D80001A05C1 /* SCNProgramFragment.metal in Sources */,
+				71B93FF223BE4D80001A05C1 /* SCNTechnique.metal in Sources */,
+				71B93FFB23BE4D80001A05C1 /* SCNProgram.metal in Sources */,
+				71B93FFF23BE4D80001A05C1 /* SCNTechniqueUniformViewController.swift in Sources */,
+				71B93FFA23BE4D80001A05C1 /* SCNProgramViewController.swift in Sources */,
+				71B9400723BE4D92001A05C1 /* Common.swift in Sources */,
+				71B93FF623BE4D80001A05C1 /* SCNTechniqueNode.metal in Sources */,
+				71B9400023BE4D80001A05C1 /* SCNTechniqueViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71B93FCE23BE4CCD001A05C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B93FCF23BE4CCD001A05C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71B93FD323BE4CCE001A05C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B93FD423BE4CCE001A05C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71B93FD723BE4CCE001A05C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71B93FD823BE4CCE001A05C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71B93FDA23BE4CCE001A05C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2G73MEDYC5;
+				INFOPLIST_FILE = ARKitMetal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tksshj.ARKitMetal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71B93FDB23BE4CCE001A05C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2G73MEDYC5;
+				INFOPLIST_FILE = ARKitMetal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tksshj.ARKitMetal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71B93FC023BE4CCD001A05C1 /* Build configuration list for PBXProject "ARKitMetal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B93FD723BE4CCE001A05C1 /* Debug */,
+				71B93FD823BE4CCE001A05C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B93FD923BE4CCE001A05C1 /* Build configuration list for PBXNativeTarget "ARKitMetal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B93FDA23BE4CCE001A05C1 /* Debug */,
+				71B93FDB23BE4CCE001A05C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71B93FBD23BE4CCD001A05C1 /* Project object */;
+}

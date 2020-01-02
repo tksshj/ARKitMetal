@@ -1,0 +1,27 @@
+{
+  "passes": {
+    "SCNTechniqueUniform": {
+      "draw": "DRAW_QUAD",
+      "metalVertexShader": "vertexShaderSCNTechniqueUniform",
+      "metalFragmentShader": "fragmentShaderSCNTechniqueUniform",
+      "inputs": {
+        "red": "symbolsSCNTechniqueUniform",
+        "colorSampler": "COLOR"
+      },
+      "outputs": {
+        "color": "COLOR"
+      },
+      "colorStates": {
+        "clear": true
+      }
+    }
+  },
+  "sequence": [
+    "SCNTechniqueUniform"
+  ],
+  "symbols": {
+    "symbolsSCNTechniqueUniform": {
+      "type": "float"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "passes": {
+    "SCNTechnique": {
+      "draw": "DRAW_QUAD",
+      "metalVertexShader": "vertexShaderSCNTechnique",
+      "metalFragmentShader": "fragmentShaderSCNTechnique",
+      "inputs": {
+        "colorSampler": "COLOR"
+      },
+      "outputs": {
+        "color": "COLOR"
+      },
+      "colorStates": {
+        "clear": true
+      }
+    }
+  },
+  "sequence": [
+    "SCNTechnique"
+  ]
+}

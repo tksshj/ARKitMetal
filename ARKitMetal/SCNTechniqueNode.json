@@ -1,0 +1,22 @@
+{
+  "passes": {
+    "SCNTechniqueNode": {
+      "draw": "DRAW_NODE",
+      "metalVertexShader": "vertexShaderSCNTechniqueNode",
+      "metalFragmentShader": "fragmentShaderSCNTechniqueNode",
+      "inputs": {
+        "colorSampler": "COLOR",
+      },
+      "outputs": {
+        "color": "COLOR"
+      },
+      "colorStates": {
+        "clear": true
+      },
+      "includeCategoryMask": 2
+    }
+  },
+  "sequence": [
+    "SCNTechniqueNode"
+  ]
+}
